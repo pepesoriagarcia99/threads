@@ -1,0 +1,21 @@
+{
+    "name": "thread",
+    "version": "1.0.0",
+    "description": "Un proyecto de Node.js y C++ para enviar señales entre procesos.",
+    "main": "src/index.js",
+    "scripts": {
+        "build": "node-gyp configure build",
+        "start": "node src/index.js",
+        "rebuild": "node-gyp rebuild",
+        "clean": "node-gyp clean"
+    },
+    "dependencies": {
+        "node-addon-api": "^5.0.0"
+      },
+      "devDependencies": {
+        "node-gyp": "^9.0.0"
+      },
+      "gypfile": true,
+    "author": "Jose Eduardo Soria Garcia",
+    "license": "MIT"
+}

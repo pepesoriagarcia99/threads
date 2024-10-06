@@ -1,0 +1,5 @@
+Necesito poder compartir objetos no serializables entre hilos y subhilos o poder ponerme en contacto con diferentes hilos pricipales.
+Ya sea con codigo puramente javascript o con codigo c++ usando WASM.
+
+Tener presente tambien el consumo de memoria y CPU de la implementacion.
+
